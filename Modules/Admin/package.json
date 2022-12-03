@@ -1,0 +1,20 @@
+{
+    "name": "admin-module",
+    "private": true,
+    "devDependencies": {
+        "bootstrap": "^3.3.7",
+        "chart.js": "^2.7.3",
+        "datatables.net": "^1.10.15",
+        "datatables.net-bs": "^1.10.15",
+        "flatpickr": "^3.0.6",
+        "font-awesome": "^4.7.0",
+        "jquery": "^3.2.1",
+        "jquery-slimscroll": "^1.3.8",
+        "lodash": "^4.17.4",
+        "mousetrap": "^1.6.1",
+        "nprogress": "^0.2.0",
+        "selectize": "^0.12.6",
+        "sortablejs": "https://github.com/RubaXa/Sortable",
+        "tinymce": "^5.2.2"
+    }
+}

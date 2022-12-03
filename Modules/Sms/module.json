@@ -1,0 +1,10 @@
+{
+    "name": "Sms",
+    "alias": "sms",
+    "description": "The FleetCart Sms Module.",
+    
+    "priority": 100,
+    "providers": [
+        "Modules\\Sms\\Providers\\SmsServiceProvider"
+    ]
+}

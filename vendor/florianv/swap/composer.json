@@ -1,0 +1,41 @@
+{
+    "name": "florianv/swap",
+    "description": "Exchange rates library for PHP",
+    "keywords": ["currency", "money", "rate", "conversion", "exchange rates"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Florian Voutzinos",
+            "email": "florian@voutzinos.com",
+            "homepage": "https://voutzinos.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Swap\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Swap\\Tests\\": "tests/"
+        }
+    },
+    "require": {
+        "php": "^7.1.3 || ^8.0",
+        "florianv/exchanger": "^2.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7 || ^8 || ^9",
+        "php-http/mock-client": "^1.0",
+        "php-http/message": "^1.7",
+        "nyholm/psr7": "^1.0"
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "4.0-dev"
+        }
+    }
+}

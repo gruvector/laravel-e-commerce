@@ -1,0 +1,9 @@
+{
+    "name": "FlashSale",
+    "alias": "flashsale",
+    "description": "The FleetCart FlashSale Module.",
+    "priority": 100,
+    "providers": [
+        "Modules\\FlashSale\\Providers\\FlashSaleServiceProvider"
+    ]
+}

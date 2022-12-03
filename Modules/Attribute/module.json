@@ -1,0 +1,10 @@
+{
+    "name": "Attribute",
+    "alias": "attribute",
+    "description": "The FleetCart Attribute Module.",
+    "priority": 100,
+    "providers": [
+        "Modules\\Attribute\\Providers\\AttributeServiceProvider",
+        "Modules\\Attribute\\Providers\\EventServiceProvider"
+    ]
+}

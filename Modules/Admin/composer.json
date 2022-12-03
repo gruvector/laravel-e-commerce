@@ -1,0 +1,29 @@
+{
+    "name": "fleetcart/admin",
+    "description": "The FleetCart Admin Module.",
+    "authors": [
+        {
+            "name": "Mehedi Hassan",
+            "email": "MehediDracula@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3.0",
+        "maatwebsite/laravel-sidebar": "^2.2",
+        "yajra/laravel-datatables-oracle": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Admin\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}

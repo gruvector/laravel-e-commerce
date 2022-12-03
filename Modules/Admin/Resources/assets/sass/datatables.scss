@@ -1,0 +1,220 @@
+.index-table {
+    .label {
+        padding: 6px 10px;
+    }
+
+    > .loading-spinner {
+        display: table;
+        margin: 0 auto;
+        margin-bottom: 10px;
+    }
+}
+
+.dataTable.table {
+    border-bottom: 1px solid #e9e9e9;
+
+    > {
+        thead > tr > th,
+        tfoot > tr > th {
+            font-family: 'Open Sans', sans-serif;
+            color: #4a4a4a;
+            padding: 10px 15px;
+            border-color: #e9e9e9;
+
+            &:after {
+                padding: 5px;
+            }
+        }
+
+        tbody > tr {
+            transition: 200ms ease-in-out;
+
+            &:first-child > td {
+                border: none;
+            }
+
+            &:nth-of-type(2n+1) {
+                background: #ffffff;
+
+                &:hover {
+                    background: #f9f9f9;
+                }
+            }
+
+            > td {
+                padding: 15px;
+                vertical-align: middle;
+                outline: 0;
+            }
+        }
+    }
+
+    .checkbox {
+        margin-bottom: 0;
+    }
+
+    .thumbnail-holder {
+        position: relative;
+        border: 1px solid #d9d9d9;
+        background: #ffffff;
+        height: 50px;
+        width: 50px;
+        border-radius: 3px;
+        overflow: hidden !important;
+
+        > {
+            i {
+                position: absolute;
+                font-size: 24px;
+                color: #d9d9d9;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+            }
+
+            img {
+                position: absolute;
+                left: 50%;
+                top: 50%;
+                max-height: 100%;
+                max-width: 100%;
+                transform: translate(-50%, -50%);
+            }
+        }
+    }
+}
+
+table.dataTable {
+    margin: 5px 0 !important;
+
+    thead {
+        .sorting,
+        .sorting_asc,
+        .sorting_desc,
+        .sorting_asc_disabled,
+        .sorting_desc_disabled {
+            &:after {
+                bottom: 3px;
+                opacity: 0.5;
+            }
+        }
+    }
+}
+
+div.dataTables_length {
+    display: flex;
+
+    > label {
+        margin-bottom: 0;
+    }
+
+    select.input-sm {
+        margin: 0 15px 0 5px;
+    }
+}
+
+div.dataTables_wrapper {
+    margin-top: 5px;
+
+    &.dataTables_filter input {
+        margin-left: 10px;
+    }
+
+    div.dataTables_processing {
+        position: absolute;
+        top: 0;
+        left: 0;
+        margin: 0;
+        width: 100%;
+        height: 100%;
+        border: 0;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.7);
+        z-index: 999;
+
+        .fa-spin {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            color: #000;
+            font-size: 30px;
+        }
+    }
+
+    .dataTables_paginate {
+        margin-top: 8px !important;
+
+        ul.pagination {
+            margin: 0;
+        }
+    }
+}
+
+.btn-delete {
+    margin-left: 10px;
+}
+
+.dataTables_empty {
+    color: #626060;
+}
+
+.dataTable.translations-table {
+    margin: 5px -15px !important;
+    padding: 0 15px;
+
+    > tbody > tr > td {
+        min-width: 150px;
+    }
+}
+
+@media screen and (max-width: 991px) {
+    #products-table {
+        .dataTable.table {
+            > tbody > tr > td:nth-child(3) {
+                min-width: 200px;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    div.table-responsive {
+        > div.dataTables_wrapper > div.row > div[class^="col-"] {
+            &:first-child {
+                padding-right: 0;
+            }
+
+            &:last-child {
+                padding-left: 0;
+            }
+        }
+    }
+
+    div.dataTables_wrapper {
+        > .row > .col-sm-6 {
+            width: 100%;
+        }
+
+        div.dataTables_filter {
+            text-align: left;
+            margin-top: 15px;
+        }
+    }
+}
+
+@media screen and (max-width: 340px) {
+    div.dataTables_length {
+        display: block;
+
+        .btn-delete {
+            display: table;
+            margin: 15px 0 0 0;
+        }
+    }
+
+    div.dataTables_wrapper {
+        div.dataTables_length {
+            text-align: left;
+        }
+    }
+}

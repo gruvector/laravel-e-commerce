@@ -1,0 +1,9 @@
+{
+    "name": "Media",
+    "alias": "media",
+    "description": "The FleetCart Media Module.",
+    "priority": 80,
+    "providers": [
+        "Modules\\Media\\Providers\\MediaServiceProvider"
+    ]
+}

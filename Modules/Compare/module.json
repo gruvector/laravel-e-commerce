@@ -1,0 +1,9 @@
+{
+    "name": "Compare",
+    "alias": "compare",
+    "description": "The FleetCart Compare Module.",
+    "priority": 100,
+    "providers": [
+        "Modules\\Compare\\Providers\\CompareServiceProvider"
+    ]
+}

@@ -1,0 +1,230 @@
+.order-information-wrapper,
+.address-information-wrapper {
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.order-information-wrapper {
+    .order-information-buttons {
+        position: absolute;
+        top: 0;
+        right: 0;
+
+        > a {
+            float: right;
+            padding: 6px 15px;
+            color: #626060;
+
+            & + .tooltip .tooltip-inner {
+                white-space: nowrap;
+            }
+        }
+
+        > form {
+            float: right;
+            margin-right: 5px;
+
+            button {
+                padding: 6px 12px;
+                color: #626060;
+
+                & + .tooltip .tooltip-inner {
+                    white-space: nowrap;
+                }
+            }
+        }
+    }
+
+    .table-responsive {
+        margin-bottom: 0;
+    }
+}
+
+.order-wrapper {
+    background: #ffffff;
+    padding: 15px;
+    border-radius: 3px;
+
+    .order {
+        td .row {
+            margin-right: 0;
+        }
+    }
+
+    .table {
+        margin: 0;
+
+        > tbody > tr > td {
+            border: none;
+        }
+    }
+
+    h4 {
+        font-weight: 500;
+        margin-bottom: 10px;
+    }
+
+    .handling-information span {
+        font-size: 15px;
+    }
+
+    .items-ordered {
+        .table-responsive {
+            margin-bottom: 0;
+        }
+
+        .table {
+            border-bottom: 1px solid #e9e9e9;
+        }
+
+        tr {
+            &:last-child {
+                border-bottom: none;
+            }
+
+            > td {
+                font-size: 16px;
+                padding-top: 16px;
+                padding-bottom: 16px;
+                border-top: 1px solid #f1f1f1 !important;
+                vertical-align: middle;
+
+                &:first-child {
+                    min-width: 250px;
+                }
+
+                &:last-child {
+                    font-weight: 500;
+                }
+            }
+
+            a {
+                font-size: 16px;
+                font-weight: 400;
+                color: #444444;
+                letter-spacing: 0.2px;
+                transition: 200ms ease-in-out;
+            }
+
+            a:hover {
+                color: #0068e1;
+            }
+
+            span {
+                font-size: 14px;
+                display: block;
+
+                span {
+                    display: inline-block;
+                    color: #9a9a9a;
+                }
+            }
+        }
+    }
+
+    .form-group {
+        overflow: hidden;
+
+        > label {
+            display: block;
+        }
+    }
+
+    .section-title {
+        border-bottom: 1px solid #d2d6de;
+        padding-bottom: 8px;
+        margin-bottom: 15px;
+    }
+
+    .order .table-responsive,
+    .account-information .table-responsive {
+        margin-left: -8px;
+
+        tr > td:first-child {
+            font-family: "Open Sans", sans-serif;
+            font-weight: 600;
+            white-space: nowrap;
+        }
+    }
+
+    .billing-address span,
+    .shipping-address span {
+        line-height: 26px;
+        display: block;
+        clear: both;
+    }
+
+    .order-total {
+        textarea {
+            width: 90%;
+        }
+
+        button {
+            margin-top: 10px;
+        }
+    }
+
+    .order-totals {
+        width: 300px;
+        margin: 15px 15px 0 0;
+
+        tbody > tr {
+            > td {
+                font-family: "Roboto", sans-serif !important;
+                font-weight: 400 !important;
+                font-size: 17px;
+                padding: 5px 8px;
+            }
+
+            &:last-child > td {
+                font-family: "Roboto", sans-serif;
+                font-weight: 500 !important;
+                border-top: 1px solid #e9e9e9;
+            }
+        }
+
+        .coupon-code {
+            font-family: "Open Sans", sans-serif;
+            font-weight: 600;
+        }
+    }
+}
+
+@media screen and (max-width: 991px) {
+    .order-wrapper {
+        .account-information,
+        .shipping-address,
+        .handling-information {
+            margin-top: 30px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .order-wrapper {
+        .table {
+            > tbody > tr > td {
+                white-space: inherit;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 520px) {
+    .order-information-wrapper {
+        .order-information-buttons {
+            position: relative;
+            top: auto;
+            right: auto;
+            float: right;
+        }
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .order-wrapper {
+        .order-totals {
+            width: 250px;
+        }
+    }
+}

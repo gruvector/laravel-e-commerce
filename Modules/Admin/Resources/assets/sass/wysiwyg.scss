@@ -1,0 +1,15 @@
+.tox {
+    &.tox-tinymce-aux {
+        .tox-toolbar__overflow {
+            min-width: 55px;
+        }
+    }
+
+    .tox-menu {
+        &.tox-collection.tox-collection--list {
+            .tox-collection__group {
+                min-width: 178px;
+            }
+        }
+    }
+}

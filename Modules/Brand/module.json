@@ -1,0 +1,9 @@
+{
+    "name": "Brand",
+    "alias": "brand",
+    "description": "The FleetCart Brand Module.",
+    "priority": 100,
+    "providers": [
+        "Modules\\Brand\\Providers\\BrandServiceProvider"
+    ]
+}

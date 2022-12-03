@@ -1,0 +1,29 @@
+.tax-class {
+    margin-bottom: 40px;
+}
+
+.tax-rates {
+    .form-group {
+        margin-bottom: 0;
+    }
+
+    .tax-name {
+        min-width: 180px;
+    }
+
+    .country,
+    .state {
+        min-width: 150px;
+    }
+
+    .country select,
+    .state select {
+        width: 100%;
+    }
+
+    .city,
+    .zip,
+    .rate {
+        min-width: 120px;
+    }
+}

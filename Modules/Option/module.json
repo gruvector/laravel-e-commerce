@@ -1,0 +1,12 @@
+{
+    "name": "Option",
+    "alias": "option",
+    "priority": 100,
+    "providers": [
+        "Modules\\Option\\Providers\\OptionServiceProvider",
+        "Modules\\Option\\Providers\\EventServiceProvider"
+    ],
+    "files": [
+        "helpers.php"
+    ]
+}

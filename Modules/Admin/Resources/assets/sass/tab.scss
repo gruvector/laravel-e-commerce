@@ -1,0 +1,67 @@
+.tab-wrapper > ul {
+    display: block;
+    margin-bottom: 20px;
+
+    > li {
+        margin: 0;
+
+        &.active > a {
+            border: none !important;
+            color: #333333;
+
+            &:focus {
+                border: none !important;
+                color: #333333;
+            }
+
+            &:hover {
+                border: none;
+            }
+
+            &:after {
+                width: 100% !important;
+            }
+        }
+
+        &.has-error {
+            > a:after {
+                width: 100% !important;
+            }
+
+            &:not(.active) > a:after {
+                background: #ff3366;
+            }
+        }
+
+        > a {
+            position: relative;
+            font-size: 14px;
+            color: #777777;
+            border: none;
+            margin: 0;
+
+            &:after {
+                position: absolute;
+                content: "";
+                bottom: -1px;
+                left: 0;
+                right: 0;
+                margin: auto;
+                width: 0;
+                background: #0068e1;
+                height: 1px;
+                transition: 200ms ease-in-out;
+            }
+        }
+
+        > a:hover,
+        &.active > a:hover {
+            background: transparent;
+            color: #333333;
+        }
+
+        > a:hover:after {
+            width: 50%;
+        }
+    }
+}

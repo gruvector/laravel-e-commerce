@@ -1,0 +1,6 @@
+{
+    "name": "Transaction",
+    "alias": "transaction",
+    "description": "The FleetCart Transaction Module.",
+    "priority": 100
+}

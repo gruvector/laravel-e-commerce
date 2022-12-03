@@ -1,0 +1,4 @@
+*
+!public/
+!csv_templates/
+!.gitignore

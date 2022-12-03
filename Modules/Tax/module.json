@@ -1,0 +1,9 @@
+{
+    "name": "Tax",
+    "alias": "tax",
+    "description": "The FleetCart Tax Module.",
+    "priority": 100,
+    "providers": [
+        "Modules\\Tax\\Providers\\TaxServiceProvider"
+    ]
+}

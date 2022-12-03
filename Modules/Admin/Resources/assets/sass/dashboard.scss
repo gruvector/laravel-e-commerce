@@ -1,0 +1,152 @@
+.grid {
+	.single-grid {
+		position: relative;
+		overflow: hidden;
+		height: 130px;
+		padding: 0 15px;
+		background: #ffffff;
+		border-radius: 3px;
+        box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+
+        h4 {
+            margin: 22px 0;
+        }
+
+        span {
+            font-size: 26px;
+            margin-top: 3px;
+        }
+
+        i {
+            font-size: 36px;
+            position: absolute;
+            left: 15px;
+            bottom: 22px;
+            margin: 0;
+        }
+
+        &.total-orders {
+            i {
+                color: rgba(0, 104, 225, 0.7);
+            }
+        }
+
+        &.total-sales {
+            i {
+                color: rgba(112, 124, 210, 0.7);
+            }
+        }
+
+        &.total-customers {
+            i {
+                color: rgba(255, 51, 102, 0.7);
+            }
+        }
+
+        &.total-products {
+            i {
+                color: rgba(55, 188, 155, 0.7);
+            }
+        }
+	}
+}
+
+.dashboard-panel {
+    margin-top: 30px;
+    padding: 0 15px;
+    background: #ffffff;
+    overflow: hidden;
+    border-radius: 3px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+
+    .table-responsive {
+        margin-bottom: 10px;
+    }
+}
+
+.grid-header {
+    overflow: auto;
+
+	h4 {
+		margin: 15px 0;
+        float: left;
+
+		i {
+			margin-right: 8px;
+		}
+	}
+}
+
+.sales-analytics {
+	background: #ffffff;
+	margin-top: 30px;
+    padding: 0 15px 15px;
+	border-radius: 3px;
+    box-shadow: 0 1px 4px 0 rgba(0, 0, 0, 0.1);
+
+    .chart {
+        height: 282px !important;
+    }
+}
+
+.anchor-table {
+	.table {
+		> tbody {
+			> tr {
+				> td {
+                    padding: 0;
+
+                    a {
+                        display: block;
+                        padding: 12px 8px;
+                        color: #626060;
+                        text-decoration: none;
+                    }
+
+                    &.empty {
+                        text-align: center;
+                        padding: 10px 0;
+                    }
+                }
+
+                &:hover {
+                    a {
+                        color: #0059bd;
+                    }
+                }
+			}
+        }
+    }
+}
+
+.search-terms {
+    tbody > tr > td {
+        color: #626060;
+        padding: 12px 8px;
+
+        &.empty {
+            text-align: center;
+            padding: 10px 0;
+        }
+    }
+}
+
+@media screen and (max-width: 1199px) {
+    .single-grid {
+        &.total-customers {
+            margin-top: 15px;
+        }
+
+        &.total-products {
+            margin-top: 15px;
+        }
+    }
+}
+
+@media screen and (max-width: 767px) {
+	.single-grid {
+        &.total-orders {
+            margin-top: 15px;
+        }
+    }
+}

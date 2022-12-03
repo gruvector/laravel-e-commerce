@@ -1,0 +1,6 @@
+{
+    "name": "Meta",
+    "alias": "meta",
+    "description": "Meta data management",
+    "priority": 110
+}

@@ -1,0 +1,28 @@
+{
+    "name": "fleetcart/cart",
+    "description": "The FleetCart Cart Module.",
+    "authors": [
+        {
+            "name": "Mehedi Hassan",
+            "email": "MehediDracula@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3.0",
+        "darryldecode/cart": "^4.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Cart\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}

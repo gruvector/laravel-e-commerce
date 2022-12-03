@@ -1,0 +1,41 @@
+#notification-toast {
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    z-index: 999;
+}
+
+.ohsnap-alert {
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    border-radius: 3px;
+    float: right;
+    clear: right;
+    background-color: white;
+    z-index: 999;
+}
+
+.ohsnap-alert-red {
+    color: #ffffff;
+    background-color: #da4453;
+}
+
+.ohsnap-alert-green {
+    color: #ffffff;
+    background-color: #37bc9b;
+}
+
+.ohsnap-alert-blue {
+    color: #ffffff;
+    background-color: #4a89dc;
+}
+
+.ohsnap-alert-yellow {
+    color: #ffffff;
+    background-color: #f6bb42;
+}
+
+.ohsnap-alert-orange {
+    color:#fff;
+    background-color: #e9573f;
+}

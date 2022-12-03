@@ -1,0 +1,7 @@
+{
+    "name": "category-module",
+    "private": true,
+    "devDependencies": {
+        "jstree": "^3.3.9"
+    }
+}

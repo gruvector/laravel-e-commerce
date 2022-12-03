@@ -1,0 +1,9 @@
+{
+    "name": "Import",
+    "alias": "import",
+    "description": "The FleetCart Import Module.",
+    "priority": 100,
+    "providers": [
+        "Modules\\Import\\Providers\\ImportServiceProvider"
+    ]
+}

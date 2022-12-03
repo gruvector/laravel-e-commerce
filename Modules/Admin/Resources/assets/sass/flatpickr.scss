@@ -1,0 +1,43 @@
+@import '~flatpickr/dist/flatpickr';
+
+.flatpickr-calendar {
+	box-shadow: 0 1px 8px rgba(0, 0, 0, 0.15);
+}
+
+.rtl {
+	.flatpickr-calendar {
+		&:before,
+		&:after {
+			right: 22px;
+			left: auto;
+		}
+	}
+}
+
+.flatpickr-month {
+	height: 50px;
+}
+
+.flatpickr-prev-month,
+.flatpickr-next-month {
+	top: 10px;
+}
+
+.rtl {
+	.flatpickr-prev-month,
+	.flatpickr-next-month {
+		transform: rotateY(180deg);
+	}
+}
+
+span.flatpickr-current-month {
+	.cur-month {
+		font-family: "Open Sans", sans-serif !important;
+	}
+}
+
+.flatpickr-weekdays {
+	span {
+		font-family: "Open Sans", sans-serif;
+	}
+}

@@ -1,0 +1,114 @@
+@import '~selectize/dist/css/selectize';
+
+.selectize-control:not(.multi) {
+    .selectize-input .item,
+    .selectize-dropdown .option {
+        font-size: 14px;
+    }
+
+    .plugin-remove_button [data-value] {
+        padding-right: 0 !important;
+    }
+}
+.selectize-control {
+    &.multi .selectize-input > div {
+        padding: 4px 8px;
+    }
+
+    &.single .selectize-input {
+        cursor: text;
+
+        &:after {
+            content: none;
+        }
+
+        > span {
+            display: flex;
+            padding: 2px 0
+        }
+
+        input {
+            cursor: text;
+            position: absolute;
+            left: -10000px;
+        }
+    }
+
+    &.plugin-remove_button {
+        [data-value] .remove {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-left-color: #e9e9e9;
+        }
+
+        .remove-single {
+            top: 1px;
+            color: #333333;
+            text-decoration: none;
+        }
+    }
+}
+
+.selectize-input {
+    border-radius: 3px;
+    border-color: #d9d9d9;
+    min-height: 40px;
+    vertical-align: bottom;
+    box-shadow: none !important;
+    transition: border-color ease-in-out .15s;
+
+    .dropdown-active {
+        -webkit-border-radius: 0;
+        border-radius: 0;
+    }
+
+    > input {
+        margin-top: 2px !important;
+    }
+
+    input {
+        font-size: 15px;
+        transition: 0ms !important;
+    }
+
+    input::-moz-placeholder {
+        color: #999999;
+        opacity: 1;
+    }
+
+    input:-ms-input-placeholder {
+        color: #999999;
+    }
+
+    input::-webkit-input-placeholder {
+        color: #999999;
+    }
+
+    &.focus {
+        border-color: #6f8dfd;
+        box-shadow: 0 0 2px rgba(30, 140, 190, .8);
+    }
+
+    .item {
+        border-radius: 3px;
+        float: left;
+        white-space: normal;
+        word-break: break-all;
+    }
+}
+
+.selectize-dropdown {
+    [data-selectable] {
+        cursor: pointer;
+    }
+
+    .active {
+        background-color: #f9f9f9;
+    }
+
+    .selectize-dropdown-content .create strong {
+        font-family: "Open Sans", sans-serif;
+        font-weight: 600;
+    }
+}

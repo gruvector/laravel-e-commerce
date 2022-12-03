@@ -1,0 +1,9 @@
+{
+    "name": "Shipping",
+    "alias": "shipping",
+    "description": "The FleetCart Shipping Module.",
+    "priority": 100,
+    "providers": [
+        "Modules\\Shipping\\Providers\\ShippingServiceProvider"
+    ]
+}

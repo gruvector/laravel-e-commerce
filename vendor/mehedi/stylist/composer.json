@@ -1,0 +1,44 @@
+{
+    "name": "mehedi/stylist",
+    "description": "Laravel theming package.",
+    "authors": [
+        {
+            "name": "Kirk Bushell",
+            "email": "torm3nt@gmail.com"
+        },
+        {
+            "name": "Mike Dugan",
+            "email": "mike@mjdugan.com"
+        },
+        {
+            "name": "Yassine Kraiem",
+            "email": "kamisama953@gmail.com"
+        },
+        {
+            "name": "Mehedi Hasan",
+            "email": "MehediDracula@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "laravelcollective/html": "^6.0|^7.0|^8.0",
+        "illuminate/support": "^6.0|^7.0|^8.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mehedi\\Stylist\\": "src/Stylist"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mehedi\\Stylist\\StylistServiceProvider"
+            ]
+        }
+    },
+    "minimum-stability": "stable",
+    "config": {
+        "preferred-install": "dist"
+    },
+    "license": "MIT"
+}

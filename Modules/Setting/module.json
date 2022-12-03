@@ -1,0 +1,13 @@
+{
+    "name": "Setting",
+    "alias": "setting",
+    "description": "Module for handling all site settings.",
+    "priority": 10,
+    "providers": [
+        "Modules\\Setting\\Providers\\SettingServiceProvider",
+        "Modules\\Setting\\Providers\\EventServiceProvider"
+    ],
+    "files": [
+        "helpers.php"
+    ]
+}

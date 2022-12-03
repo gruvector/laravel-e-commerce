@@ -1,0 +1,6 @@
+{
+    "name": "Wishlist",
+    "alias": "wishlist",
+    "description": "The FleetCart Wishlist Module.",
+    "priority": 100
+}

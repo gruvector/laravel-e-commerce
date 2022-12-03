@@ -1,0 +1,5 @@
+<?php
+
+return [
+    'email' => 'Email',
+];

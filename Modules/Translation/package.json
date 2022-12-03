@@ -1,0 +1,7 @@
+{
+    "name": "translation-module",
+    "private": true,
+    "devDependencies": {
+        "x-editable": "^1.5.1"
+    }
+}

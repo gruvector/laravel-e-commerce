@@ -1,0 +1,27 @@
+{
+    "name": "fleetcart/brand",
+    "description": "The FleetCart Brand Module.",
+    "authors": [
+        {
+            "name": "Mehedi Hasan",
+            "email": "mehedi5531@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.3.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Brand\\": ""
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "1.0.x-dev"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev"
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Currency",
+    "alias": "currency",
+    "description": "The FleetCart Currency Module.",
+    "priority": 100,
+    "providers": [
+        "Modules\\Currency\\Providers\\CurrencyServiceProvider",
+        "Modules\\Currency\\Providers\\EventServiceProvider",
+        "Modules\\Currency\\Providers\\CurrencyExchangeRateServiceProvider"
+    ]
+}
