@@ -60,28 +60,39 @@ Unzip the downloaded archive package. Rename the FleetCart directory to your des
 ## Step 2: Creating Database
 Create a database for FleetCart through your server control panel. If your server has phpMyAdmin, then you can also create a database using phpMyAdmin.
 
-#S#tep 3: Run Installation Wizard
+## Step 3: Run Installation Wizard
 Go to your website address, then you'll see an installation wizard.
 
+
+
+
 ## WARNING
-
+```
 You should configure your web server's document / web root to be the public directory.
-Pre Installation
-Pre Installation page checks if your server meets the requirements and has the correct directory permissions to setup FleetCart.
 
-Directories within the storage and the bootstrap/cache directories should be writable by your web server or FleetCart will not run.
+``` 
+## Pre Installation
 
-install page pre installation step
+Pre Installation page checks if your server meets the requirements and has the correct directory permissions to setup.
+
+Directories within the storage and the bootstrap/cache directories should be writable by your web server.
+
+
+![Pre Installation](https://github.com/habib45/laravel-e-commerce/blob/main/demo/install-page-pre-installation-step.png?raw=true)
+
+
 
 ## Configuration
-You need to fill the database connection details, administration details, and store details, then click the Install button to install FleetCart.
+You need to fill the database connection details, administration details, and store details, then click the Install button to install.
 
-install page configuration step
+![Configuration](https://github.com/habib45/laravel-e-commerce/blob/main/demo/install-page-configuration-step.png?raw=true)
 
 ## Complete
-You'll see a success message after successfully installing FleetCart. You now have the option to browse your online store or log into the administration panel.
+You'll see a success message after successfully installing. You now have the option to browse your online store or log into the administration panel.
 
-install page complete step
+![Complete](https://github.com/habib45/laravel-e-commerce/blob/main/demo/install-page-complete-step.png?raw=true)
+
+
 
 ## Admin Panel
 Admin panel is the place where you can manage products, categories, coupons, orders, pages, and much more. You can also customize the look of your store from the admin panel.
