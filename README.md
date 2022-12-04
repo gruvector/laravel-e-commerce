@@ -1,4 +1,4 @@
-# laravel e-commerce
+# laravel ecommerce
 E-commerce site develop by laravel use module based ex: Accounting,inventory, payment process, them, font-end, admin module, user management, order tracking, slider management
 
 ![E-commerce Laravel demo](https://github.com/habib45/laravel-e-commerce/blob/main/demo/e-comarce.png)
@@ -72,10 +72,10 @@ Before you install FleetCart make sure your server meets the following requireme
 ## Installing
 
 ## Step 1: Extract and Upload
-Unzip the downloaded archive package. Rename the FleetCart directory to your desired directory name and upload the directory to your web server through FTP or Control Panel.
+Unzip the downloaded archive package. Rename the directory to your desired directory name and upload the directory to your web server through FTP or Control Panel.
 
 ## Step 2: Creating Database
-Create a database for FleetCart through your server control panel. If your server has phpMyAdmin, then you can also create a database using phpMyAdmin.
+Create a database for through your server control panel. If your server has phpMyAdmin, then you can also create a database using phpMyAdmin.
 
 ## Step 3: Run Installation Wizard
 Go to your website address, then you'll see an installation wizard.
