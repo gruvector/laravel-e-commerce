@@ -1,4 +1,4 @@
-# laravel e-commerce
+# laravel ecommerce
 E-commerce site develop by laravel use module based ex: Accounting,inventory, payment process, them, font-end, admin module, user management, order tracking, slider management
 
 ![E-commerce Laravel demo](https://github.com/habib45/laravel-e-commerce/blob/main/demo/e-comarce.png)
