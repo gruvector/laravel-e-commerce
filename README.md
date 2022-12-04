@@ -7,24 +7,40 @@ E-commerce site develop by laravel use module based ex: Accounting,inventory, pa
 
 Full-featured e-commerce package:
 
+* Home page banner sections
+* handsome & Powerful Admin Panel
 * Multi vendor, multi channel and multi warehouse
-* From one to 1,000,000,000+ items
-* Extremly fast down to 20ms
-* For multi-tentant e-commerce SaaS solutions with unlimited vendors
-* Bundles, vouchers, virtual, configurable, custom and event products
-* Subscriptions with recurring payments
-* 100+ payment gateways
+* Multiple Currencies
+* Third Party Integration for Updating Currency Rates
+* Scheduled Currency Rate Updating
+* Advanced Home Page Customization
+* Advanced Search
+* Algolia Search Engine Integration
+* payment gateways
 * Full RTL support (frontend and backend)
 * Block/tier pricing out of the box
 * Extension for customer/group based prices
 * Discount and voucher support
 * Flexible basket rule system
 * Full-featured admin backend
-* Beautiful admin dashboard
-* Configurable product data sets
-* JSON REST API based on jsonapi.org
-* GraphQL API for administration
-* Completly modular structure
+* Product Options
+* Product Attributes
+* Advanced Product Filtering
+* Guest Checkout
+* Customer Panel
+* Sales Analytics Chart
+* Search Log
+* Advanced System Report
+* Custom Static Page
+* Scheduled Special Product Price
+* Country, State, City, Zip Based Tax Configuration
+* Minimum Amount for Free Shipping
+* File Manager
+* Drag & Drop File Uploader
+* Custom CSS/JS
+* Custom 404 Page
+* SEO Optimized
+* Maintenance Mode
 * Extremely configurable and extensible
 * Extension for market places with millions of vendors
 * Fully SEO optimized including rich snippets
@@ -33,6 +49,7 @@ Full-featured e-commerce package:
 * Optimized for smart phones and tablets
 * Secure and reviewed implementation
 * High quality source code
+* 8 Theme for Storefront
 
 ## Installation
 
@@ -97,8 +114,13 @@ You'll see a success message after successfully installing. You now have the opt
 ## Admin Panel
 Admin panel is the place where you can manage products, categories, coupons, orders, pages, and much more. You can also customize the look of your store from the admin panel.
 
+![Complete](https://github.com/habib45/laravel-e-commerce/blob/main/demo/admin-panel-login-page.png?raw=true)
+
 ## Login
 To access the admin panel add /admin after your website address. For example if your website address is "www.examplestore.com", then your admin panel is located at "www.examplestore.com/admin".
+
+
+![Complete](https://github.com/habib45/laravel-e-commerce/blob/main/demo/dashboard.png?raw=true)
 
 
 ## Develop By Md Ahsan Habib
