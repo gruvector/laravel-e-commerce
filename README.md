@@ -1,5 +1,39 @@
 # laravel e-commerce
 E-commerce site develop by laravel use module based ex: Accounting,inventory, payment process, them, font-end, admin module, user management, order tracking, slider management
+
+[![Aimeos Laravel demo](https://aimeos.org/fileadmin/aimeos.org/images/aimeos-github.png)](http://laravel.demo.aimeos.org/)
+
+## Features
+
+Full-featured e-commerce package:
+
+* Multi vendor, multi channel and multi warehouse
+* From one to 1,000,000,000+ items
+* Extremly fast down to 20ms
+* For multi-tentant e-commerce SaaS solutions with unlimited vendors
+* Bundles, vouchers, virtual, configurable, custom and event products
+* Subscriptions with recurring payments
+* 100+ payment gateways
+* Full RTL support (frontend and backend)
+* Block/tier pricing out of the box
+* Extension for customer/group based prices
+* Discount and voucher support
+* Flexible basket rule system
+* Full-featured admin backend
+* Beautiful admin dashboard
+* Configurable product data sets
+* JSON REST API based on jsonapi.org
+* GraphQL API for administration
+* Completly modular structure
+* Extremely configurable and extensible
+* Extension for market places with millions of vendors
+* Fully SEO optimized including rich snippets
+* Translated to 30+ languages
+* AI-based text translation
+* Optimized for smart phones and tablets
+* Secure and reviewed implementation
+* High quality source code
+
 ## Installation
 
 ## Server Requirements
@@ -18,7 +52,7 @@ Before you install FleetCart make sure your server meets the following requireme
 10. JSON PHP Extension 
 
 ```
-## Installing FleetCart
+## Installing
 
 ## Step 1: Extract and Upload
 Unzip the downloaded archive package. Rename the FleetCart directory to your desired directory name and upload the directory to your web server through FTP or Control Panel.
