@@ -120,7 +120,7 @@ Admin panel is the place where you can manage products, categories, coupons, ord
 To access the admin panel add /admin after your website address. For example if your website address is "www.examplestore.com", then your admin panel is located at "www.examplestore.com/admin".
 
 
-![Complete](https://github.com/habib45/laravel-e-commerce/blob/main/demo/dashboard1.png?raw=true)
+![Complete](https://github.com/habib45/laravel-e-commerce/blob/main/demo/dashboard.png?raw=true)
 
 
 ## Develop By Md Ahsan Habib
