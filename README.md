@@ -1,7 +1,7 @@
 # laravel e-commerce
 E-commerce site develop by laravel use module based ex: Accounting,inventory, payment process, them, font-end, admin module, user management, order tracking, slider management
 
-[![Aimeos Laravel demo](https://aimeos.org/fileadmin/aimeos.org/images/aimeos-github.png)](http://laravel.demo.aimeos.org/)
+![E-commerce Laravel demo](https://github.com/habib45/laravel-e-commerce/blob/main/demo/e-comarce.png)
 
 ## Features
 
